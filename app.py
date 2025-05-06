@@ -1,5 +1,6 @@
 # starter code ~ Sudharsan (May 5, 2025)
-
+# imports
+import math
 # print is more like a console.log in js to print output
 print("Hello World")
 # expression ~ Expression is a piece of code that returns a value
@@ -121,3 +122,12 @@ x += 3  # more like x = x + 3
 x -= 3  # more like x = x - 3
 x *= 3  # more like x = x * 3
 x /= 3  # more like x = x / 3
+
+# Working with Numbers
+
+# builtin functions
+print(round(2.9))  # Rounds to nearest integer (standard)
+print(abs(-2.9))  # Returns positive version of the number
+# functions from math module ~ here math is a object so that we can access its methods like we access from the object
+print(math.ceil(2.2))  # Output: 3 ~ Rounds up to nearest integer
+print(math.floor(2.9))  # Output: 2 ~ Rounds down to nearest integer
