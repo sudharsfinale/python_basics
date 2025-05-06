@@ -104,3 +104,20 @@ integer_number = 1000
 float_number = 1.1
 # Complex Numbers ~ more like a number with real and imaginary part
 complex_number = 1 + 2j
+
+# Arithmetic operations
+print(10 + 3)  # addition
+print(10 - 3)  # subtraction
+print(10 * 3)  # multiplication
+print(10 / 3)  # division
+print(71 // 12)  # floor division
+print(10 % 3)  # modulus
+print(10 ** 3)  # exponentiation
+
+# Augmented assignment operator
+# more like a shorthand for the above arithmetic operations
+x = 10
+x += 3  # more like x = x + 3
+x -= 3  # more like x = x - 3
+x *= 3  # more like x = x * 3
+x /= 3  # more like x = x / 3
