@@ -131,3 +131,26 @@ print(abs(-2.9))  # Returns positive version of the number
 # functions from math module ~ here math is a object so that we can access its methods like we access from the object
 print(math.ceil(2.2))  # Output: 3 ~ Rounds up to nearest integer
 print(math.floor(2.9))  # Output: 2 ~ Rounds down to nearest integer
+print(math.factorial(5))  # Output: 6 ~ Returns factorial of the number
+
+# Type conversion
+# str
+print(str(123))  # Output: "123"
+# int
+print(int("123"))  # Output: 123
+# float
+print(float("123"))  # Output: 123.0
+# bool
+print(bool(1))  # Output: True
+# Falsy bool values
+print(bool(0))  # Output: False
+print(bool(""))  # Output: False
+print(bool([]))  # Output: False
+print(bool({}))  # Output: False
+print(bool(None))  # Output: False
+# Truthy bool values
+print(bool(1))  # Output: True
+print(bool("Hello"))  # Output: True
+print(bool([1, 2, 3]))  # Output: True
+print(bool({1, 2, 3}))  # Output: True
+print(bool((1, 2, 3)))  # Output: True
