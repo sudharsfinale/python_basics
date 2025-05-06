@@ -172,3 +172,23 @@ print(20 < 10)   # Output: False
 # Greater than or equal to
 print(10 >= 20)  # Output: False
 print(20 >= 10)  # Output: True
+
+# Conditional Statements ~ used when it is a time to take decisions
+temperature = 33
+# if and else
+if temperature > 34:
+    # indentation is necessary to make understand the python interpreter to what statements should be executed if the condition passes
+    print("It is hot")
+else:
+    print("It is not hot")
+
+# if elif else
+
+if temperature > 34:
+    print("It is hot")
+elif temperature > 18:
+    print("It is mediumly hot")
+elif temperature > 4:
+    print("It is cold")
+else:
+    print("It is very cold")
