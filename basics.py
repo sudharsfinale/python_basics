@@ -46,3 +46,10 @@ message = """
 
     Blah blah blah
 """
+
+
+# 1. Everything in Python is an object ~ Even basic things like integers, strings, lists — all of them are objects of specific classes:
+
+# 10 → an instance of the int class
+
+# "10" → an instance of the str class
