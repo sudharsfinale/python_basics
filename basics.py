@@ -53,3 +53,27 @@ message = """
 # 10 → an instance of the int class
 
 # "10" → an instance of the str class
+
+
+# when using a virtual environment we have to change our interpreter from global python to current environment
+"""
+A virtual environment is a self-contained Python environment that allows you to isolate your project's dependencies from the system Python environment. This is useful for several reasons:
+
+1. Avoid version conflicts: By creating a virtual environment for each project, you can ensure that the project's dependencies are installed in a specific version, without affecting the system Python environment.
+
+2. Simplify dependency management: Virtual environments make it easier to manage dependencies for each project, as you can install and manage dependencies within the virtual environment, without affecting the system Python environment.
+
+3. Improve reproducibility: Virtual environments help ensure that your project's dependencies are consistent across different environments, making it easier to reproduce your project's behavior.
+
+"""
+# setup
+"""  from ChatGPT
+✅ 4. Make sure VS Code is using the correct interpreter
+In VS Code:
+
+Press Cmd+Shift+P (Mac) or Ctrl+Shift+P (Windows/Linux)
+
+Type: Python: Select Interpreter
+
+Choose the one pointing to your venv (should include the path to venv/bin/python or venv\Scripts\python.exe)
+"""
