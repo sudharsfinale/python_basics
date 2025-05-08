@@ -7,7 +7,8 @@ import smtplib  # Simple Mail Transfer Protocol ~ actually a protocol to send ma
 # If we have to send some packets we use TCP (Transmission Control Protocol) or UDP (User Datagram Protocol)
 
 import os
-
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 
 load_dotenv()
