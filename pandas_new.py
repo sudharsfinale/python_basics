@@ -15,3 +15,29 @@ Output :
 5    6.0
 dtype: float64
 """
+
+series_2 = pd.Series(["India", "Canada", "Germany"], name="Countries")
+print(series_2)
+
+"""
+0      India
+1     Canada
+2    Germany
+Name: Countries, dtype: object
+# Here Name is a column header
+"""
+
+series_3 = pd.Series({"India": "New Delhi", "Japan": "Tokyo", "UK": "London"})
+print(series_3)
+print(series_3["India"])
+print(series_3["Japan"])
+
+
+"""
+India    New Delhi
+Japan        Tokyo
+UK          London
+dtype: object
+New Delhi
+Tokyo
+"""
