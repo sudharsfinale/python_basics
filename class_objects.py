@@ -155,6 +155,7 @@ banana.display()
 
 
 class Teacher:
+    # class variable
     relation = "Sister"
 
     def __init__(self, teacher_name, register_no):
