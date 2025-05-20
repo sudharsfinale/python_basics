@@ -75,7 +75,7 @@ suresh.beach()
 # HP.ram = "16GB"
 # print(HP.price)
 
-class Laptop:
+class Laptop():
     # init is a inbuilt python fn called as constructor ~ A constructor is a unique function that gets called automatically when an object is created of a class.
     # uses - whenever we create a object for class, these objects should be stored in our computer memory
     """
@@ -103,7 +103,7 @@ Dell = Laptop("20000", "AMD", "8gb")
 print(HP.price)  # This will print "100000"
 
 
-class Car:
+class Car():
     def __init__(self, car_name, car_model):
         self.car_name = car_name
         self.car_model = car_model
@@ -117,7 +117,7 @@ lexus = Car("Lexus", "G73")
 lexus.display()
 
 
-class Student:
+class Student():
     def __init__(self):
         self.student_name = ""
         self.student_age = 0
@@ -140,7 +140,7 @@ student_2.display()
 student_1.display()
 
 
-class Fruit:
+class Fruit():
     def __init__(self, fruit_color):
         self.fruit_color = fruit_color
 
